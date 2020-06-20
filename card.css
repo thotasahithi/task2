@@ -30,3 +30,12 @@ a>h3{color: red;}
 a{
 	text-decoration: none;
 }
+@media(min-width:320px ) and (max-width: 480px){
+.main{
+flex-direction: column-reverse;
+}
+.sub{
+width: 100%;
+}
+
+}
